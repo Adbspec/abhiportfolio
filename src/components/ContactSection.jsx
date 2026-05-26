@@ -40,9 +40,7 @@ const ContactSection = () => {
           </div>
         </motion.div>
       </div>
-      <footer style={{ marginTop: '6rem', padding: '2rem 0', textAlign: 'center', borderTop: '1px solid var(--border-color)', color: 'var(--text-tertiary)' }}>
-        <p>© {new Date().getFullYear()} {portfolioData.personalDetails.name}. Built with React & Vite.</p>
-      </footer>
+
     </section>
   );
 };
