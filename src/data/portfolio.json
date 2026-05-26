@@ -1,0 +1,119 @@
+{
+  "personalDetails": {
+    "name": "Abhishek Tomar",
+    "title": "Software Engineer",
+    "shortIntro": "Software Engineer specializing in scalable backend systems, AWS cloud infrastructure, and automation. Proven track record in optimizing performance and developing enterprise-scale solutions.",
+    "email": "abhishektomar3553@gmail.com",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourprofile",
+    "resumeDownloadUrl": "/AbhishekResume.pdf"
+  },
+  "about": {
+    "summary": "I am a dedicated Software Engineer with expertise in building scalable backend applications using ASP.NET Core and designing serverless event-driven architectures on AWS. With a strong foundation in C#, JavaScript, and DevOps pipelines, I focus on optimizing operational efficiency, automating workflows, and delivering high-throughput systems that align with complex enterprise requirements."
+  },
+  "skills": {
+    "Languages": ["C#", "JavaScript", "TypeScript"],
+    "Backend": ["ASP.NET Core", "Web API", "Node.js"],
+    "Cloud & DevOps": ["AWS", "Linux", "EC2", "VPC", "IAM", "S3", "Lambda", "DynamoDB", "CloudFront", "CloudWatch", "Azure DevOps", "GitHub Actions"],
+    "Databases": ["MySQL", "MongoDB"],
+    "Frontend": ["React.js", "Angular"]
+  },
+  "experience": [
+    {
+      "id": "exp1",
+      "company": "HCLTech Ltd.",
+      "role": "Software Engineer",
+      "startDate": "2025-03",
+      "endDate": "Present",
+      "achievements": [
+        "Engineered a synthetic data generation platform to simulate enterprise-scale user activity for AI-driven analytics systems",
+        "Developed high-throughput backend services using ASP.NET Core, generating large-scale time-series datasets",
+        "Modeled realistic behavioral patterns using rule-based and probabilistic approaches to ensure statistical consistency",
+        "Simulated productivity, collaboration, and engagement trends to enable demonstration of AI-powered insights",
+        "Worked with Azure DevOps CI/CD pipelines, monitoring builds and resolving failures to maintain stable releases",
+        "Collaborated in a client-facing environment, translating business requirements into scalable backend systems"
+      ]
+    },
+    {
+      "id": "exp2",
+      "company": "Falcon Autotech Pvt Ltd.",
+      "role": "Automation Engineer",
+      "startDate": "2024-07",
+      "endDate": "2025-03",
+      "achievements": [
+        "Automated design workflows, achieving a 98% reduction in task execution time",
+        "Improved operational efficiency by 40% and reduced time-to-market by 35%",
+        "Developed optimized control systems, reducing delays by 30%",
+        "Enhanced resource allocation strategies, lowering operational costs by 25%"
+      ]
+    },
+    {
+      "id": "exp3",
+      "company": "Embedded Design Services India Pvt Ltd.",
+      "role": "Software Engineer",
+      "startDate": "2022-10",
+      "endDate": "2024-07",
+      "achievements": [
+        "Built scalable backend applications using .NET Core, increasing system adoption by 20%",
+        "Optimized backend performance, improving throughput by 50%",
+        "Designed APIs and modular backend systems, reducing development cycle time by 25%",
+        "Delivered customized enterprise solutions aligned with client requirements and operational goals"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "AWS Serverless Lead Capture & Data Processing System",
+      "description": "Designed and deployed an event-driven serverless application to process incoming requests and automate backend workflows securely and scalably.",
+      "techStack": ["AWS API Gateway", "AWS Lambda", "DynamoDB", "Amazon S3", "Amazon SES", "CloudFront"],
+      "liveLink": "#",
+      "sourceLink": "#",
+      "flowVisualization": {
+        "nodes": [
+          { "id": "1", "label": "Client / User" },
+          { "id": "2", "label": "API Gateway" },
+          { "id": "3", "label": "AWS Lambda" },
+          { "id": "4", "label": "DynamoDB" },
+          { "id": "5", "label": "Amazon SES" }
+        ],
+        "edges": [
+          { "source": "1", "target": "2" },
+          { "source": "2", "target": "3" },
+          { "source": "3", "target": "4" },
+          { "source": "3", "target": "5" }
+        ]
+      }
+    },
+    {
+      "id": "proj2",
+      "title": "AWS Infrastructure & EC2 Deployment",
+      "description": "Designed a custom VPC architecture for secure networking, incorporating public/private subnets and a bastion host for secure EC2 application hosting.",
+      "techStack": ["AWS EC2", "VPC", "Linux", "Security Groups", "NACLs", "Bastion Host"],
+      "liveLink": "#",
+      "sourceLink": "#",
+      "flowVisualization": {
+        "nodes": [
+          { "id": "1", "label": "Internet Gateway" },
+          { "id": "2", "label": "Public Subnet (Bastion)" },
+          { "id": "3", "label": "Private Subnet (App EC2)" },
+          { "id": "4", "label": "Security Groups" }
+        ],
+        "edges": [
+          { "source": "1", "target": "2" },
+          { "source": "2", "target": "3" },
+          { "source": "4", "target": "2" },
+          { "source": "4", "target": "3" }
+        ]
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Computer Science Engineering",
+      "university": "J.C. Bose University of Science and Technology",
+      "year": "2019 - 2023",
+      "coursework": ["Data Structures", "Algorithms", "Operating Systems", "Artificial Intelligence"]
+    }
+  ]
+}
