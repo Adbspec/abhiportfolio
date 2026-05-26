@@ -2,8 +2,6 @@ import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import portfolioData from '../../../../src/data/portfolio.json';
 
-export const runtime = 'edge';
-
 // In-memory rate limiting map
 // Format: { ip: { count: number, resetTime: number } }
 const rateLimitMap = new Map();
