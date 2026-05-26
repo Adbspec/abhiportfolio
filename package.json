@@ -4,16 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "pages:build": "npx @cloudflare/next-on-pages@1",
-    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2026-05-12",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2026-05-12"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
