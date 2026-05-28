@@ -1,0 +1,35 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-41801fa7ee1eefbf.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4f84124391a7dac4.js",
+      "static/chunks/main-app-c3025803f780c81d.js",
+      "static/chunks/app/_not-found/page-4af4db3d9743b0a1.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-41801fa7ee1eefbf.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4f84124391a7dac4.js",
+      "static/chunks/main-app-c3025803f780c81d.js",
+      "static/css/9cd7ec83b0b0113b.css",
+      "static/chunks/app/layout-02c482570d1373fe.js"
+    ],
+    "/api/ask-abhi/route": [
+      "static/chunks/webpack-41801fa7ee1eefbf.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4f84124391a7dac4.js",
+      "static/chunks/main-app-c3025803f780c81d.js",
+      "static/chunks/app/api/ask-abhi/route-1991f85ae2092311.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-41801fa7ee1eefbf.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-4f84124391a7dac4.js",
+      "static/chunks/main-app-c3025803f780c81d.js",
+      "static/css/a00826fc162bd22d.css",
+      "static/chunks/105-02ac6f04f36f9d12.js",
+      "static/chunks/app/page-1a7f38a96c05d76e.js"
+    ]
+  }
+}
